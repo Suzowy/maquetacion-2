@@ -94,11 +94,17 @@
     padding-top: 10rem;
     padding-bottom: 7rem;
   }
+
+ 
 }
 
 @media (max-width: 1000px) {
+
+
+
   .layout {
     min-width: auto;
+    overflow-x: hidden;
   }
 
   .navbar__nav {
@@ -502,3 +508,119 @@
 
 }
 }
+
+@media (max-width: 540px) {
+
+  .stats__container,
+  .contact__container,
+  .reviews__grid,
+  .clients__container,
+  .news__container,
+  .footer__container {
+    padding-left: 3rem;
+    padding-right:3rem;
+  }
+  .layout__services {
+    margin-left: 3rem;
+    margin-right: 1rem;
+  }
+
+  .layout__projects{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+  }
+.categories__item{
+  text-align: center;
+  font-size: 1.7rem;
+}
+  .projects__categories {
+    width: 100%;
+    gap: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 4rem;
+}
+.services__subtitle,
+.projects__subtitle,
+.stats__subtitle,
+.reviews__subtitle,
+.clients__subtitle,
+.news__subtitle,
+.contact__subtitle {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.services__title,
+.projects__title,
+.stats__title,
+.reviews__title,
+.news__title,
+.clients__title,
+.contact__title {
+  font-size:4rem;
+text-align: center;
+}
+.project-shapes--shape1 {
+  top: 5%;
+  right: 18%;
+}
+
+
+.review-shapes__item {
+  opacity: 0.4;
+  width: 10%;
+  top: 7%;
+  right: 10%;
+}
+
+.new-shapes--shape1 {
+  top: 2rem;
+  left: 2.5rem;
+}
+.new-shapes--shape2 {
+  top: 5rem;
+
+}
+
+
+.new-shapes--shape4 {
+  opacity: 0.4;
+  bottom: 6rem;
+  right: -10rem;
+}
+
+
+  .layout__contact::before {
+    height: 55rem;
+ 
+  }
+.contact__img{
+  width: 50%;
+}
+
+
+.contact__thumb--laptop {
+  bottom: -10px;
+  left: 11px;
+}
+  .contact__thumb--mobile {
+    bottom: -10px;
+    right: -156px;
+}
+
+  .footer__widget--50{
+    flex-basis: auto;
+  }
+.footer__fright{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    gap: 4rem;
+
+}
+}
+
+
+}
+

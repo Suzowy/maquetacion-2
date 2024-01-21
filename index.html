@@ -13,20 +13,37 @@
     <!-- cargar estilos -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/dark.css"> -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    
 
     <!-- cargar js -->
-
-
+    <script src="assets/js/menu-mobile.js"></script>
+    <script src="assets/js/navbar-fixed.js"></script>
+    <script src="assets/js/dark.js"></script>
 
 </head>
 
 <body>
 
+    <!-- BOTON MODO OSCURO -->
+
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="switcher__icon fa-solid fa-moon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="switcher__icon fa-solid fa-lightbulb"></i>
+            </span>
+        </button>
+    </div>
+
     <!-- MENU NAVEGACION RESPONSIVE -->
 
     <div class="menu-mobile">
-        
+
         <header class="menu-mobile__header">
             <div class="menu-mobile__continer-logo">
                 <a class="menu-mobile__link-logo" href="#">
@@ -78,7 +95,7 @@
                         <a href="#" class="menu-mobile__link">Portafolio
                             <i class="menu-mobile__icon fa-solid fa-chevron-down"></i>
                         </a>
-                        <ul class="menu-mobile__submenu">
+                        <ul class="menu-mobile__submenu-mobile">
                             <li class="submenu-mobile__item">
                                 <a href="#" class="submenu-mobile__link">Diseño web</a>
                             </li>
@@ -102,10 +119,10 @@
                     </li>
 
                     <li class="menu-mobile__item">
-                        <a href="#" class="menu-mobile__title">Blog
+                        <a href="#" class="menu-mobile__link">Blog
                             <i class="menu-mobile__icon fa-solid fa-chevron-down"></i>
                         </a>
-                        <ul class="menu-mobile__submenu">
+                        <ul class="menu-mobile__submenu-mobile">
                             <li class="submenu-mobile__item">
                                 <a href="#" class="submenu-mobile__link">Diseño web</a>
                             </li>
@@ -979,7 +996,7 @@
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cum impedit facilis
                                 minima! Doloremque, labore! Dignissimos, id quasi.
                             </p>
-                            <form class="flest__form">
+                            <form class="fleft__form">
                                 <div class="fleft__group">
                                     <span class="fleft__mail-icon">
                                         <i class="fleft__img  fa-solid fa-envelope-open-text"></i>
