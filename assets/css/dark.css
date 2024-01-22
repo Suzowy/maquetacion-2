@@ -12,12 +12,12 @@
   --color-bg-projects: #292930;
   --color-bg-dark: #27272e;
   --color-text-description: #99a1aa;
-  --color-hover-dark: #141414;
+  --color-hover-dark: #101010;
   --color-borders: #3f3f47;
 }
 
 body {
-  background-color: #212121;
+  background-color: #101010;
 }
 .banner__btn {
   background-color: var(--color-primary);
@@ -96,4 +96,17 @@ body {
 
 .widget__link:hover {
   color: var(--color-primary);
+}
+
+
+.menu-mobile {
+  background-color: var(--color-hover-dark);
+}
+
+.menu-mobile__close {
+  background-color: var(--color-primary);
+}
+
+.menu-mobile__link {
+  color: var(--color-text-body);
 }

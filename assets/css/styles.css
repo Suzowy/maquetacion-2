@@ -40,6 +40,7 @@ body {
   width: 100%;
   min-width: 1200px;
   height: 100%;
+  overflow-x: hidden;
 }
 
 /* ESTILOS MENU NAVEGACION Y CABECERA DE LA WEB */
@@ -1117,7 +1118,7 @@ body {
 .contact__images {
   position: relative;
   text-align: center;
-  border-bottom: 1px solod var(--color-borders);
+  border-bottom: 1px solid var(--color-borders);
 }
 
 .contact__thumb {
